@@ -1,0 +1,18 @@
+.filter{
+    text-align: end;
+}
+
+span{
+    margin: 0 5px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    border: 0.8px solid rgba(128, 128, 128, 0.457);
+}
+
+input:focus{
+    border-color: blue;
+}

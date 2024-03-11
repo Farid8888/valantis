@@ -1,0 +1,60 @@
+
+
+.headers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    
+}
+
+.pag{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page{
+    border: 1px solid blue;
+}
+
+.active{
+    border: 1px solid rgb(14, 147, 219);
+    color:rgb(14, 147, 219);
+    padding: 2px 8px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.p{
+    padding: 2px 8px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.p:hover{
+   background-color: rgba(128, 128, 128, 0.121);; 
+}
+
+.row{
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.row:hover{
+    background-color: rgba(128, 128, 128, 0.121);
+}
+
+.row.disabled:hover{
+    cursor: no-drop;
+    background-color: inherit;
+}

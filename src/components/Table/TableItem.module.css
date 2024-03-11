@@ -1,0 +1,25 @@
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.2px solid rgba(128, 128, 128, 0.148);
+}
+
+.name{
+    width: 12rem;
+    color: blue;
+    text-align: end;
+}
+
+p{
+    text-align: center;
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
